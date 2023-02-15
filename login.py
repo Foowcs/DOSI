@@ -24,7 +24,6 @@ def main():
 			x = DOSI(s)
 			print(x.claimDon())
 			print(x.getBalance())
-			print(x.adventure())
 			print("")
 		print("+--------------------------------------------+")
 		time.sleep(86460) # 24:01 hours
