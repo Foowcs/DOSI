@@ -16,10 +16,6 @@ class DOSI:
 	def claimDon(self):
 		return requests.post(self.base + '/events/check-in', cookies=self.cookie).json()
 
-	def adventure(self):
-		adv = requests.get(self.base + '/adventures', cookies=self.cookie).json()
-		adv_id = str(adv['adventureList'][0]['id'])
-		return requests.post(self.base + '/adventures/' + adv_id + '/participation', cookies=self.cookie).json()
 
 def main():
 
