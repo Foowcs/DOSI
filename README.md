@@ -1,12 +1,8 @@
-# DOSI Auto Adventure
 
-Simple Auto Adventure DOSI
 
 Created by viloid ( github.com/vsec7 )
 
-## • Features
-- Auto Claim DON / Attend Check
-- Auto Participate Adventure
+
 
 ## • Requirements
 - Python3
